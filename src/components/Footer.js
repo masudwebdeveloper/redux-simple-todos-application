@@ -9,7 +9,7 @@ const numberOfTodos = (no_of_todos) => {
       return "1 Task";
 
     default:
-      return no_of_todos;
+      return no_of_todos + " tasks";
   }
 };
 const Footer = () => {
